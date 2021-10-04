@@ -38,16 +38,16 @@ Ranking is based on performance. Fastest execution time (accross multiple tries)
 ### Extra points
 
 - +5 points for the shortest solution (codegolf). Judged by the number of bytes your solution file has. If tied, both (or more) get awarded 5 points.
-- +5 points for the most elegant and readable code. Judged by a jury (TBD). Ties are possible.
+- +5 points determined via voting procedure. Ties are also possible.
 - challenge creator gets as many points as participants in the challenge. (clamped to min: 10; max: 25)
 
-**Note:** Since you can submit multiple solutions, the shortest and most elegant solution will be ranked apart from fastest. E.g. you can submit 3 solutions - one aimed to be fastest, another one to be the shortest and the 3rd one to be most readable/elegant/novel or otherwise noteworthy for the judges. It could very well be that a solution is both elegant and fast. So all correct solutions will be evaluated independently for each award category.
+**Note:** Since you can submit multiple solutions, the shortest and most elegant solution will be ranked apart from fastest. E.g. you can submit 3 solutions - one aimed to be fastest, another one to be the shortest and the 3rd one to be most readable/elegant/novel or otherwise noteworthy for the voting. It could very well be that a solution is both elegant and fast. So all correct solutions will be evaluated independently for each award category.
 
-#### Jury process
+#### Voting process
 
-Jury consists of 3 judges: David, Israel and Harijs (or whoever is available that week).
-Each picks 3 favourite solutions and ranks them. (most favourite gets 3pts, 2nd - 2, 3rd - 1).
-Then sum the points together - the top one gets 5pts from jury. (ties are possible; then multiple get 5pts).
+Voting commences as soon as official run is completed.
+Each Slack member can run `/vote` command and select the best solution of the last week.
+The votes are counted after a week - the top one gets 5pts from jury. (ties are possible; then multiple get 5pts).
 
 ### Proxibited solutions
 
@@ -107,58 +107,83 @@ If you'd like to contribute and create a challenge, here are instructions for [a
 ## 2021
 ### Overall
 
-| Place | Name       | Week 09 | Week 10 | Week 11 | Week 12 | Week 13 | Week 14 | Week 15 | Week 16 | Week 17 | Week 18 | Week 19 | Week 20 | Week 21 | Week 22 | Week 23 | Week 24 | Week 25 | Week 26 | Week 27 | Week 28 | Week 29 | Week 30 | Week 31 | Week 32 | Week 33 | Week 34 | Total points | Place | Name       |
-|-------|------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|--------------|-------|------------|
-| 1.    | Peter-Paul | 30      | 25      | 35      | 25      | 30      | 10      | 30      | 30      | 30      | 23      | 23      | 15      | 23      | 17      | 30      | 18      |         |         |         |         |         |         |         |         |         |         | 394          | 1.    | Peter-Paul |
-| 2.    | Lars       | 25      | 15      | 18      | 30      | 18      | 17      | 17      | 12      |         | 18      | 35      |         | 30      | 23      | 25      | 15      | 18      | 4       | 25      | 30      | 12      | 5       |         |         |         |         | 392          | 2.    | Lars       |
-| 3.    | Irene      | 10      | 10      | 20      | 25      | 23      | 25      | 17      | 35      | 28      | 13      | 2       | 17      | 15      | 18      | 10      |         |         |         |         |         |         | 17      | 18      | 30      | 12      | 23      | 368          | 3.    | Irene      |
-| 4.    | Aman       | 4       | 18      | 15      | 6       | 18      | 25      | 25      | 25      | 18      | 18      | 10      | 25      | 10      | 25      | 12      | 10      | 17      | 25      |         |         |         |         |         |         |         |         | 306          | 4.    | Aman       |
-| 5.    | Lee        |         |         |         |         |         |         |         |         | 12      | 4       |         | 25      | 8       | 12      | 6       | 35      | 30      | 12      | 1       | 30      | 9       | 17      | 1       | 25      | 15      | 25      | 267          | 5.    | Lee        |
-| 6.    | Jan Bart   | 10      | 6       | 4       | 25      | 18      | 8       | 6       | 6       | 4       | 9       | 2       | 4       | 15      | 6       | 8       | 8       | 10      | 10      | 30      | 2       | 5       | 4       | 18      |         |         |         | 218          | 6.    | Jan Bart   |
-| 7.    | Tim        | 12      | 9       | 6       | 9       | 23      | 17      | 4       |         | 17      | 25      | 15      | 7       | 4       | 10      | 2       | 8       | 18      | 15      |         | 13      |         |         |         |         |         |         | 214          | 7.    | Tim        |
-| 8.    | Pablo      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 25      | 30      | 18      | 35      | 23      | 25      | 12      |         | 168          | 8.    | Pablo      |
-| 9.    | Joppe      | 5       | 2       | 10      | 25      | 18      | 25      | 15      | 8       | 12      | 18      | 10      |         |         | 4       |         |         |         |         |         |         |         |         |         |         |         |         | 152          | 9.    | Joppe      |
-|       | Javad      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 23      | 25      | 25      | 12      | 25      | 30      | 4       |         | 8       | 152          |       | Javad      |
-| 11.   | Mettin     |         | 8       |         | 1       | 23      | 9       | 8       | 4       | 5       | 10      | 6       | 10      |         | 12      | 15      | 8       | 8       | 2       | 1       |         | 4       |         |         |         |         |         | 134          | 11.   | Mettin     |
-| 12.   | Dexter     | 1       | 17      | 15      |         | 23      | 2       | 2       | 12      | 4       | 1       | 6       | 6       | 8       | 4       | 6       | 12      |         |         |         |         |         |         |         |         |         |         | 119          | 12.   | Dexter     |
-| 13.   | Anuradha   |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 15      | 25      | 8       | 25      | 17      |         | 13      | 12      | 2       | 117          | 13.   | Anuradha   |
-| 14.   | Hossein    |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 2       | 8       | 4       | 30      | 18      | 25      | 12      | 10      | 109          | 14.   | Hossein    |
-| 15.   | Varun      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 18      | 35      | 30      | 15      | 98           | 15.   | Varun      |
-| 16.   | Bram       |         |         |         |         |         | 6       | 1       |         | 1       |         |         |         |         |         |         |         |         |         |         |         | 12      | 12      | 18      | 8       | 30      | 6       | 94           | 16.   | Bram       |
-| 17.   | Ezzeddine  |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 11      | 25      | 18      | 1       | 2       |         |         | 12      | 69           | 17.   | Ezzeddine  |
-| 18.   | Sander A.  |         |         |         | 25      | 18      |         |         |         |         |         |         |         |         |         |         |         |         |         | 8       |         |         |         |         |         |         |         | 51           | 18.   | Sander A.  |
-| 19.   | Edgar      | 15      |         |         |         |         |         |         |         |         |         | 15      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 30           | 19.   | Edgar      |
-| 20.   | Daniel     |         | 1       |         |         | 18      |         |         |         |         |         |         | 8       |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 27           | 20.   | Daniel     |
-| 21.   | Gift       |         |         |         |         |         |         |         |         |         |         |         |         | 1       |         |         |         |         |         | 6       | 7       | 12      |         |         |         |         |         | 26           | 21.   | Gift       |
-| 22.   | Oskar      |         |         |         |         |         |         |         |         | 12      | 11      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 23           | 22.   | Oskar      |
-| 23.   | Tori       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 18      | 4       |         |         | 22           | 23.   | Tori       |
-| 24.   | Patrick    |         |         |         |         |         |         |         |         |         |         |         |         | 2       |         |         |         |         | 10      |         |         |         |         |         |         |         |         | 12           | 24.   | Patrick    |
-| 25.   | Alexander  |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 6       |         |         |         |         |         |         | 2       |         |         |         |         | 8            | 25.   | Alexander  |
-| 26.   | Marco      | 6       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 6            | 26.   | Marco      |
-|       | Chris      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 6       | 6            |       | Chris      |
-| 28.   | Timo       | 4       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 4            | 28.   | Timo       |
-| 29.   | Stef       |         |         |         |         |         |         |         |         |         |         |         | 2       | 1       |         |         |         |         |         |         |         |         |         |         |         |         |         | 3            | 29.   | Stef       |
-| 30.   | Mihai      |         |         | 2       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 2            | 30.   | Mihai      |
-|       | Sander L.  |         |         |         | 2       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 2            |       | Sander L.  |
+| Place | Name       | Week 09 | Week 10 | Week 11 | Week 12 | Week 13 | Week 14 | Week 15 | Week 16 | Week 17 | Week 18 | Week 19 | Week 20 | Week 21 | Week 22 | Week 23 | Week 24 | Week 25 | Week 26 | Week 27 | Week 28 | Week 29 | Week 30 | Week 31 | Week 32 | Week 33 | Week 34 | Week 35 | Week 36 | Week 37 | Week 38 | Total points | Place | Name       |
+|-------|------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|--------------|-------|------------|
+| 1.    | Peter-Paul | 30      | 25      | 35      | 25      | 30      | 10      | 30      | 30      | 30      | 23      | 23      | 15      | 23      | 17      | 30      | 18      |         |         |         |         |         |         |         |         |         |         |         | 35      | 30      | 30      | 489          | 1.    | Peter-Paul |
+| 2.    | Irene      | 10      | 10      | 20      | 25      | 23      | 25      | 17      | 35      | 28      | 13      | 2       | 17      | 15      | 18      | 10      |         |         |         |         |         |         | 17      | 18      | 30      | 12      | 23      | 25      | 13      | 30      | 10      | 446          | 2.    | Irene      |
+| 3.    | Lars       | 25      | 15      | 18      | 30      | 18      | 17      | 17      | 12      |         | 18      | 35      |         | 30      | 23      | 25      | 15      | 18      | 4       | 25      | 30      | 12      | 5       |         |         |         |         |         | 8       | 30      |         | 430          | 3.    | Lars       |
+| 4.    | Aman       | 4       | 18      | 15      | 6       | 18      | 25      | 25      | 25      | 18      | 18      | 10      | 25      | 10      | 25      | 12      | 10      | 17      | 25      |         |         |         |         |         |         |         |         |         | 25      | 25      | 12      | 368          | 4.    | Aman       |
+| 5.    | Lee        |         |         |         |         |         |         |         |         | 12      | 4       |         | 25      | 8       | 12      | 6       | 35      | 30      | 12      | 1       | 30      | 9       | 17      | 1       | 25      | 15      | 25      | 6       | 2       | 30      | 10      | 315          | 5.    | Lee        |
+| 6.    | Jan Bart   | 10      | 6       | 4       | 25      | 18      | 8       | 6       | 6       | 4       | 9       | 2       | 4       | 15      | 6       | 8       | 8       | 10      | 10      | 30      | 2       | 5       | 4       | 18      |         |         |         | 35      |         |         |         | 253          | 6.    | Jan Bart   |
+| 7.    | Tim        | 12      | 9       | 6       | 9       | 23      | 17      | 4       |         | 17      | 25      | 15      | 7       | 4       | 10      | 2       | 8       | 18      | 15      |         | 13      |         |         |         |         |         |         |         |         | 35      |         | 249          | 7.    | Tim        |
+| 8.    | Pablo      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 25      | 30      | 18      | 35      | 23      | 25      | 12      |         | 8       |         | 30      |         | 206          | 8.    | Pablo      |
+| 9.    | Varun      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 18      | 35      | 30      | 15      | 25      | 25      | 30      | 18      | 196          | 9.    | Varun      |
+| 10.   | Javad      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 23      | 25      | 25      | 12      | 25      | 30      | 4       |         | 8       |         |         | 30      |         | 182          | 10.   | Javad      |
+| 11.   | Bram       |         |         |         |         |         | 6       | 1       |         | 1       |         |         |         |         |         |         |         |         |         |         |         | 12      | 12      | 18      | 8       | 30      | 6       | 12      | 25      | 30      | 4       | 165          | 11.   | Bram       |
+|       | Hossein    |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 2       | 8       | 4       | 30      | 18      | 25      | 12      | 10      | 6       | 2       | 30      | 18      | 165          |       | Hossein    |
+| 13.   | Joppe      | 5       | 2       | 10      | 25      | 18      | 25      | 15      | 8       | 12      | 18      | 10      |         |         | 4       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 152          | 13.   | Joppe      |
+| 14.   | Anuradha   |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 15      | 25      | 8       | 25      | 17      |         | 13      | 12      | 2       | 1       |         | 30      | 1       | 149          | 14.   | Anuradha   |
+| 15.   | Mettin     |         | 8       |         | 1       | 23      | 9       | 8       | 4       | 5       | 10      | 6       | 10      |         | 12      | 15      | 8       | 8       | 2       | 1       |         | 4       |         |         |         |         |         |         |         |         |         | 134          | 15.   | Mettin     |
+| 16.   | Dexter     | 1       | 17      | 15      |         | 23      | 2       | 2       | 12      | 4       | 1       | 6       | 6       | 8       | 4       | 6       | 12      |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 119          | 16.   | Dexter     |
+| 17.   | Tori       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 18      | 4       |         |         | 6       | 8       | 25      | 10      | 71           | 17.   | Tori       |
+| 18.   | Ezzeddine  |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 11      | 25      | 18      | 1       | 2       |         |         | 12      | 1       |         |         |         | 70           | 18.   | Ezzeddine  |
+| 19.   | Ji         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 25      | 30      | 2       | 57           | 19.   | Ji         |
+| 20.   | Sander A.  |         |         |         | 25      | 18      |         |         |         |         |         |         |         |         |         |         |         |         |         | 8       |         |         |         |         |         |         |         |         |         |         |         | 51           | 20.   | Sander A.  |
+|       | Gift       |         |         |         |         |         |         |         |         |         |         |         |         | 1       |         |         |         |         |         | 6       | 7       | 12      |         |         |         |         |         |         |         | 25      |         | 51           |       | Gift       |
+| 22.   | Patrick    |         |         |         |         |         |         |         |         |         |         |         |         | 2       |         |         |         |         | 10      |         |         |         |         |         |         |         |         |         |         | 25      |         | 37           | 22.   | Patrick    |
+| 23.   | Edgar      | 15      |         |         |         |         |         |         |         |         |         | 15      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 30           | 23.   | Edgar      |
+| 24.   | Daniel     |         | 1       |         |         | 18      |         |         |         |         |         |         | 8       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 27           | 24.   | Daniel     |
+| 25.   | Oskar      |         |         |         |         |         |         |         |         | 12      | 11      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 23           | 25.   | Oskar      |
+|       | Chris      |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 11      | 12      |         |         |         | 23           |       | Chris      |
+| 27.   | Alexander  |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 6       |         |         |         |         |         |         | 2       |         |         |         |         |         |         |         |         | 8            | 27.   | Alexander  |
+| 28.   | Marco      | 6       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 6            | 28.   | Marco      |
+| 29.   | Timo       | 4       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 4            | 29.   | Timo       |
+| 30.   | Stef       |         |         |         |         |         |         |         |         |         |         |         | 2       | 1       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 3            | 30.   | Stef       |
+| 31.   | Mihai      |         |         | 2       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 2            | 31.   | Mihai      |
+|       | Sander L.  |         |         |         | 2       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         |         | 2            |       | Sander L.  |
+
+
+### September
+
+| Place | Name       | Week 35 | Week 36 | Week 37 | Week 38 | Week 39 | Total points |
+|-------|------------|---------|---------|---------|---------|---------|--------------|
+| 1.    | Varun      | 25      | 25      | 30      | 18      |         | 98           |
+| 2.    | Peter-Paul |         | 35      | 30      | 30      |         | 95           |
+| 3.    | Irene      | 25      | 13      | 30      | 10      |         | 78           |
+| 4.    | Bram       | 12      | 25      | 30      | 4       |         | 71           |
+| 5.    | Aman       |         | 25      | 25      | 12      |         | 62           |
+| 6.    | Ji         |         | 25      | 30      | 2       |         | 57           |
+| 7.    | Hossein    | 6       | 2       | 30      | 18      |         | 56           |
+| 8.    | Tori       | 6       | 8       | 25      | 10      |         | 49           |
+| 9.    | Lee        | 6       | 2       | 30      | 10      |         | 48           |
+| 10.   | Pablo      | 8       |         | 30      |         |         | 38           |
+|       | Lars       |         | 8       | 30      |         |         | 38           |
+| 12.   | Jan Bart   | 35      |         |         |         |         | 35           |
+|       | Tim        |         |         | 35      |         |         | 35           |
+| 14.   | Anuradha   | 1       |         | 30      | 1       |         | 32           |
+| 15.   | Javad      |         |         | 30      |         |         | 30           |
+| 16.   | Patrick    |         |         | 25      |         |         | 25           |
+|       | Gift       |         |         | 25      |         |         | 25           |
+| 18.   | Chris      | 12      |         |         |         |         | 12           |
+| 19.   | Ezzeddine  | 1       |         |         |         |         | 1            |
 
 
 ### August
 
-| Place | Name        | Week 31 | Week 32  | Week 33  | Week 34  | Total points|
-|-------|-------------|---------|----------|----------|----------|-------------|
-| 1.    | Varun       | 18      | 35       | 30       | 15       | 98          |
-| 2.    | Irene       | 18      | 30       | 12       | 23       | 83          |
-| 3.    | Lee         | 1       | 25       | 15       | 25       | 66          |
-| 4.    | Hossein     | 18      | 25       | 12       | 10       | 65          |
-| 5.    | Bram        | 18      | 8        | 30       | 6        | 62          |
-| 6.    | Pablo       | 23      | 25       | 12       |          | 60          |
-| 7.    | Javad       | 30      | 4        |          | 8        | 42          |
-| 8.    | Anuradha    |         | 13       | 12       | 2        | 27          |
-| 9.    | Tori        | 18      | 4        |          |          | 22          |
-| 10.   | Jan Bart    | 18      |          |          |          | 18          |
-| 11.   | Ezzeddine   | 2       |          |          | 12       | 14          |
-| 12.   | Chris       |         |          |          | 6        | 6           |
-
+| Place | Name      | Week 31 | Week 32 | Week 33 | Week 34 | Total points |
+|-------|-----------|---------|---------|---------|---------|--------------|
+| 1.    | Varun     | 18      | 35      | 30      | 15      | 98           |
+| 2.    | Irene     | 18      | 30      | 12      | 23      | 83           |
+| 3.    | Lee       | 1       | 25      | 15      | 25      | 66           |
+| 4.    | Hossein   | 18      | 25      | 12      | 10      | 65           |
+| 5.    | Bram      | 18      | 8       | 30      | 6       | 62           |
+| 6.    | Pablo     | 23      | 25      | 12      |         | 60           |
+| 7.    | Javad     | 30      | 4       |         | 8       | 42           |
+| 8.    | Anuradha  |         | 13      | 12      | 2       | 27           |
+| 9.    | Tori      | 18      | 4       |         |         | 22           |
+| 10.   | Jan Bart  | 18      |         |         |         | 18           |
+| 11.   | Ezzeddine | 2       |         |         | 12      | 14           |
+| 12.   | Chris     |         |         |         | 11      | 11           |
 
 
 ### July
